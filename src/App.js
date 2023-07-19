@@ -11,41 +11,26 @@ function App() {
         <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>Arome</span>
       </nav>
 
-      {/* Main Content */}
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="profile-container">
+      <div className="profile-content">
+        <div className="profile-left">
+          <img src={logo} className="profile-icon" alt="profile" />
+        </div>
+        <div className="profile-right">
+          <h2>Name</h2>
+          <p>Age: 30</p>
+          <p>Email: example@example.com</p>
+          <p>Location: City, Country</p>
+          {/* Add any other profile information here */}
+        </div>
+      </div>
+    </div>
 
       {/* Footer */}
       <footer style={{ backgroundColor: 'white', padding: '10px', borderTop: '1px solid #ccc' }}>
         © {new Date().getFullYear()} Arome. All rights reserved.
       </footer>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }

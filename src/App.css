@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+/*testing css*/
+.profile-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.profile-content {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile-left {
+  flex: 0 0 100px;
+  margin-right: 20px;
+}
+
+.profile-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-right {
+  flex: 1;
+  text-align: right; /* Align the text to the right */
+}
+
+.profile-right h2 {
+  margin-bottom: 10px;
+}
+
+/* Add any other styles for the profile information here */
+
+/* Navigation bar styles */
+nav {
+  display: flex;
+  justify-content: space-between; /* Align content on both sides */
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav img {
+  height: 30px;
+}
+
+nav span {
+  font-weight: bold;
+}
