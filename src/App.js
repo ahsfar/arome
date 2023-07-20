@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import PersonComponent from './tainee/PersonComponent';
+import CoursesSummaryComponent from './Courses/CoursesSummaryComponent';
 
 function App() {
   return (
@@ -11,19 +13,11 @@ function App() {
         <span style={{ marginLeft: '10px', fontWeight: 'bold' }}>Arome</span>
       </nav>
 
-      <div className="profile-container">
-      <div className="profile-content">
-        <div className="profile-left">
-          <img src={logo} className="profile-icon" alt="profile" />
-        </div>
-        <div className="profile-right">
-          <h2>Name</h2>
-          <p>Age: 30</p>
-          <p>Email: example@example.com</p>
-          <p>Location: City, Country</p>
-          {/* Add any other profile information here */}
-        </div>
-      </div>
+  <div>
+      <h1>Person Details</h1>
+      <PersonComponent />
+      <CoursesSummaryComponent /> {/* Add the new component here */}
+
     </div>
 
       {/* Footer */}

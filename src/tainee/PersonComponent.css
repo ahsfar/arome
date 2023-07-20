@@ -1,0 +1,50 @@
+/* Person Component Styles */
+.person-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .pic-column {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .pic-column img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .info-column {
+    flex: 1 1 auto;
+  }
+  
+  .info-column h2,
+  .info-column p {
+    color: #000;
+  }
+  
+  .button-column {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button-column button {
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-column button:last-child {
+    margin-bottom: 0;
+  }
+  
