@@ -14,8 +14,8 @@ function App() {
       </nav>
 
   <div>
-      <h1>Person Details</h1>
       <PersonComponent />
+      <CoursesSummaryComponent /> {/* Add the new component here */}
       <CoursesSummaryComponent /> {/* Add the new component here */}
 
     </div>

@@ -1,0 +1,96 @@
+/* Courses Summary Component Styles */
+.courses-summary-container {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .course-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .course-container {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .course-container h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .course-container p {
+    margin: 5px 0;
+  }
+  
+  .progress-container {
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .grade-feedback {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .grade-feedback {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .clickable-text {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  /* Feedback Modal Styles */
+  .feedback-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feedback-modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .feedback-modal h3 {
+    margin-top: 0;
+  }
+  
+  .feedback-modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
