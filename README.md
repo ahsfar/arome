@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+It's a frontend project for bringing 4 platforms into one.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
